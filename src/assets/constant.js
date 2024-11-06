@@ -4,6 +4,10 @@ import abt2 from './images/expert.svg'
 import package1 from './images/package1.png'
 import package2 from './images/package2.png'
 
+import photo1 from './images/testimonial1.png'
+import photo2 from './images/testimonial2.png'
+import star from './images/stars.svg'
+
 export const aboutUs = [
     {
         id: 1,
@@ -48,4 +52,23 @@ export const packages = [
         progress: 'progress'
 
     }
+]
+
+export const testimonials = [
+    {
+        id:1,
+        img: photo1,
+        comment: 'Slate helps you see how many more days you need to work to reach your financial goal for the month and year.',
+        stars: star,
+        name: 'Regina Miles',
+        role: 'Designer'
+    },
+    {
+        id:2,
+        img: photo2,
+        comment: 'Slate helps you see how many more days you need to work to reach your financial goal for the month and year.',
+        stars: star,
+        name: 'Jone Samuel',
+        role: 'Designer'
+    },
 ]

@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection"
 import LiveAction from "./components/LiveAction"
 import Navbar from "./components/Navbar"
 import Packages from "./components/Packages"
+import Testimonials from "./components/Testimonials"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <AboutUs/>
       <LiveAction/>
       <Packages/>
+      <Testimonials/>
     </>
   )
 }
