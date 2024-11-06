@@ -1,5 +1,8 @@
+import AboutUs from "./components/AboutUs"
 import HeroSection from "./components/HeroSection"
+import LiveAction from "./components/LiveAction"
 import Navbar from "./components/Navbar"
+import Packages from "./components/Packages"
 
 
 function App() {
@@ -9,6 +12,9 @@ function App() {
     <>
       <Navbar/>
       <HeroSection/>
+      <AboutUs/>
+      <LiveAction/>
+      <Packages/>
     </>
   )
 }
