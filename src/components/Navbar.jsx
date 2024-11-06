@@ -13,8 +13,8 @@ const Navbar = () => {
                 <li className='mr-10'><a href="#">Contact</a></li>
             </ul>
             <div className='flex items-center gap-3'>
-                <button>Login</button>
-                <button className='flex items-center gap-3'>Join us <FaArrowRight/></button>
+                <button className='text-[#96BB7C] font-bold text-[16px]'>Login</button>
+                <button className='flex items-center gap-3 text-white font-bold px-5 py-3 rounded-md bg-[#96BB7C]'>Join us <FaArrowRight/></button>
             </div>
         </div>
     </nav>
