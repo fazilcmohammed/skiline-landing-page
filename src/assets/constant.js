@@ -8,6 +8,11 @@ import photo1 from './images/testimonial1.png'
 import photo2 from './images/testimonial2.png'
 import star from './images/stars.svg'
 
+import member1 from './images/team1.png'
+import member2 from './images/team2.png'
+import member3 from './images/team3.png'
+import member4 from './images/team4.png'
+
 export const aboutUs = [
     {
         id: 1,
@@ -71,4 +76,32 @@ export const testimonials = [
         name: 'Jone Samuel',
         role: 'Designer'
     },
+]
+
+export const teams = [
+    {
+        id: 1,
+        img: member1,
+        name: 'julian jameson',
+        role: 'profession'
+    },
+    {
+        id: 2,
+        img: member2,
+        name: 'andrew jameson',
+        role: 'profession'
+    },
+    {
+        id: 3,
+        img: member3,
+        name: 'julia margret',
+        role: 'profession'
+    },
+    {
+        id: 4,
+        img: member4,
+        name: 'nancy thomson',
+        role: 'profession'
+    },
+    
 ]
