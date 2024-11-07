@@ -27,7 +27,7 @@ const Teams = () => {
                         <img src={team.img} alt="" className="w-52 rounded-t-2xl" />
                         <h1 className="text-[16px] font-bold text-text mt-3 capitalize">{team.name}</h1>
                         <h3 className="text-sm text-second_text font-semibold capitalize">{team.role} </h3>
-                        <div className="flex text-primary text-2xl items-center justify-center my-3 gap-2 mb-5">
+                        <div className="flex text-primary text-xl items-center justify-center my-3 gap-3 mb-5">
                             <FaFacebook/>
                             <IoLogoInstagram/>
                             <FaTwitter/>
@@ -37,7 +37,7 @@ const Teams = () => {
             }
         </div>
       </div>
-      <div className="bg-danger w-8 items-center justify-center m-auto h-1"></div>
+      <div className="bg-danger w-8 items-center justify-center m-auto h-0.5"></div>
     </section>
     
   );
