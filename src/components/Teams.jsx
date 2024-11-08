@@ -8,7 +8,7 @@ import { FaTwitter } from "react-icons/fa6";
 const Teams = () => {
   return (
     <section >
-      <div className="px-28 py-20">
+      <div className="px-10 md:px-28 py-20">
         <div>
           <h3 className="text-[18px] text-[#96BB7C] font-semibold">Team</h3>
           <h1 className="text-4xl text-[#252B42] font-bold mt-7">
@@ -20,7 +20,7 @@ const Teams = () => {
           </p>
         </div>
 
-        <div className="flex items-center justify-evenly gap-10 my-10">
+        <div className="flex flex-col md:flex-row items-center justify-evenly gap-10 my-10">
             {
                 teams.map((team, index) => (
                     <div key={index} className="rounded-2xl shadow-xl text-center ">

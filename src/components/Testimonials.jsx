@@ -4,7 +4,7 @@ import { testimonials } from "../assets/constant";
 const Testimonials = () => {
   return (
     <section >
-      <div className="px-28 py-20">
+      <div className=" px-10 md:px-28 py-20">
         <div>
           <h3 className="text-[18px] text-[#96BB7C] font-semibold">
             Testimonials
@@ -19,7 +19,7 @@ const Testimonials = () => {
         </div>
 
         <div>
-            <div className="flex items-center justify-center gap-10">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-10">
             {
                 testimonials.map((testimonial, index) => (
                     <div key={index} className="flex flex-col items-center justify-center p-16 text-center">

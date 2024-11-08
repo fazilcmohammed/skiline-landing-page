@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const AboutUs = () => {
   return (
     <section className=" bg-[#FFFFFF] " >
-      <div className="flex gap-20 px-28 py-20">
+      <div className="flex flex-col md:flex-row  gap-20 px-10 md:px-28 py-20">
         <div>
           <div className="bg-danger w-16 h-1"></div>
           <h1 className="text-4xl text-[#252B42] font-bold my-7">About Us</h1>
@@ -16,7 +16,7 @@ const AboutUs = () => {
           <button className="my-6 flex items-center gap-1 text-[16px] text-primary font-bold">Learn More <IoIosArrowForward className="text-xl"/></button>
         </div>
         <div>
-          <div className="flex gap-8">
+          <div className="flex flex-col md:flex-row gap-8">
             {
               aboutUs.map((about, index) => (
                 <div key={index} className="shadow-xl p-7 ">

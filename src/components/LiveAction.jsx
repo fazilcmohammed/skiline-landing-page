@@ -5,7 +5,7 @@ import img2 from '../assets/images/heroimg2.png'
 const LiveAction = () => {
   return (
     <section className="">
-      <div className="flex items-center gap-40 px-28 py-20">
+      <div className="flex flex-col md:flex-row items-center gap-40 px-10 md:px-28 py-20">
         <div>
             <img src={img2} alt="" className="w-[600px]"/>
         </div>

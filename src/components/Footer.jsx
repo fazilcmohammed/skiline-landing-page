@@ -10,8 +10,8 @@ import { FaTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer>
-      <div className="px-28 py-20">
-        <div className="flex items-start justify-between">
+      <div className="px-10 md:px-28 py-20">
+        <div className="flex flex-col md:flex-row items-start justify-between">
           {footerLinks.map((links, index) => (
             <div key={index}>
               <h1 className="font-bold text-[16px] text-text">{links.title}</h1>
