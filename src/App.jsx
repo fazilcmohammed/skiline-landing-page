@@ -1,4 +1,5 @@
 import AboutUs from "./components/AboutUs"
+import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 import LiveAction from "./components/LiveAction"
 import Navbar from "./components/Navbar"
@@ -21,6 +22,7 @@ function App() {
       <Testimonials/>
       <Teams/>
       <NewsLetter/>
+      <Footer/>
     </>
   )
 }

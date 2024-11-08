@@ -105,3 +105,36 @@ export const teams = [
     },
     
 ]
+
+export const footerLinks = [
+    {
+        id: 1,
+        title: 'Company Info',
+        links: {
+            link1: 'About us',
+            link2: 'Carrier',
+            link3: 'We are hiring',
+            link4: 'Blog',
+        },
+    },
+    {
+        id: 2,
+        title: 'Features',
+        links: {
+            link1: 'Business Marketing',
+            link2: 'User Analytic',
+            link3: 'Live Chat',
+            link4: 'Unlimited Support',
+        }
+    },
+    {
+        id: 3,
+        title: 'Resources',
+        links: {
+            link1: 'IOS & Android',
+            link2: 'Watch a Demo',
+            link3: 'Customers',
+            link4: 'API',
+        }
+    }
+]

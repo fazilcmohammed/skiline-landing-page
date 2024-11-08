@@ -3,8 +3,8 @@ import { testimonials } from "../assets/constant";
 
 const Testimonials = () => {
   return (
-    <section className="px-28 py-20">
-      <div>
+    <section >
+      <div className="px-28 py-20">
         <div>
           <h3 className="text-[18px] text-[#96BB7C] font-semibold">
             Testimonials
@@ -34,6 +34,7 @@ const Testimonials = () => {
             </div>
         </div>
       </div>
+      <div className="bg-danger w-8 items-center justify-center m-auto h-0.5"></div>
     </section>
   );
 };

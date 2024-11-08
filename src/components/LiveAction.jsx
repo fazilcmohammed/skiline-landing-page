@@ -4,8 +4,8 @@ import img2 from '../assets/images/heroimg2.png'
 
 const LiveAction = () => {
   return (
-    <section className="px-28 py-20">
-      <div className="flex items-center gap-40 ">
+    <section className="">
+      <div className="flex items-center gap-40 px-28 py-20">
         <div>
             <img src={img2} alt="" className="w-[600px]"/>
         </div>
@@ -21,6 +21,7 @@ const LiveAction = () => {
           </button>
         </div>
       </div>
+      <div className="bg-danger w-8 items-center justify-center m-auto h-0.5"></div>
     </section>
   );
 };

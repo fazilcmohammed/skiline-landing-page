@@ -4,8 +4,8 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const AboutUs = () => {
   return (
-    <section className="px-28 bg-[#FFFFFF] py-20" >
-      <div className="flex gap-20">
+    <section className=" bg-[#FFFFFF] " >
+      <div className="flex gap-20 px-28 py-20">
         <div>
           <div className="bg-danger w-16 h-1"></div>
           <h1 className="text-4xl text-[#252B42] font-bold my-7">About Us</h1>
@@ -30,6 +30,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <div className="bg-danger w-8 items-center justify-center m-auto h-0.5"></div>
     </section>
   );
 };

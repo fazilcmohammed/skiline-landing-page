@@ -10,8 +10,8 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Packages = () => {
   return (
-    <section className="px-28 py-20">
-      <div>
+    <section >
+      <div className="px-28 py-20">
         {/* heading and para */}
         <div>
           <h3 className="text-[18px] text-[#96BB7C] font-semibold">
@@ -81,6 +81,7 @@ const Packages = () => {
           </div>
         </div>
       </div>
+      <div className="bg-danger w-8 items-center justify-center m-auto h-0.5"></div>
     </section>
   );
 };
