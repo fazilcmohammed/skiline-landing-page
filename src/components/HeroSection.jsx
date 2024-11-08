@@ -3,7 +3,7 @@ import image1 from '../assets/images/heroimg.png'
 
 const HeroSection = () => {
   return (
-    <section className='bg-[#FFF2F3] px-10 md:pl-28 py-'>
+    <section className='bg-[#FFF2F3] px-10 md:pl-28 pt-10'>
       <div className="flex flex-col md:flex-row items-center justify-between gap-0">
         <div>
           <h3 className="text-[18px] text-[#96BB7C] font-bold">Welcome</h3>

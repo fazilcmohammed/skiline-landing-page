@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
         
         {/* Main navigation */}
-        <ul className={`text-[#737373] text-[16px] font-semibold lg:flex lg:static absolute top-16 left-0 right-0 bg-[#FFF2F3] lg:bg-transparent lg:top-auto lg:left-auto lg:right-auto lg:py-0 py-5 lg:flex-row flex-col lg:items-center transition-transform duration-300 ${menuOpen ? 'block' : 'hidden lg:block'}`}>
+        <ul className={`text-[#737373] text-[16px] font-semibold lg:flex lg:static absolute top-16 left-0 right-0 bg-[#FFF2F3] lg:bg-transparent lg:top-auto lg:left-auto lg:right-auto lg:py-0 py-5 lg:flex-row flex-col lg:items-center transition-transform duration-300 ml-10 ${menuOpen ? 'block' : 'hidden lg:block'}`}>
           <li className='lg:mr-10 lg:mt-0 mt-3'><a href="#">Home</a></li>
           <li className='lg:mr-10 lg:mt-0 mt-3'><a href="#">Product</a></li>
           <li className='lg:mr-10 lg:mt-0 mt-3'><a href="#">Pricing</a></li>
